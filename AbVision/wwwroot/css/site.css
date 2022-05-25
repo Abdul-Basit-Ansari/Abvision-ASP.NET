@@ -1,0 +1,346 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+  margin-bottom: 60px;
+    background-color: #202020;
+}
+
+
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
+.circle {
+    /* background-color: burlywood; */
+    background-image: url(../img/ailogo.jpg);
+    color: black;
+    display: inline-block;
+    border: .9vw double #202020;
+    border-radius: 50%;
+    width: 15vw;
+    margin: 3vw 0vw 1vh 6.3vw;
+    text-align: center;
+    padding-top: 2vw;
+    font-size: 2vw;
+    height: 13vw;
+}
+
+    .circle a {
+        color: aqua;
+        text-decoration: none;
+    }
+
+@media (max-width: 1800px) and (min-width: 1100px) {
+    .tboxes {
+        overflow: hidden;
+        border: .3vw solid gray;
+        width: 42vw;
+        height: 25vw;
+        display: inline-block;
+        margin: 2vw 2vw 2vw 2.5vw;
+    }
+
+    .tboxhead {
+        margin-left: 2vw;
+        width: 17vw;
+        margin-top: -20vw;
+        border-radius: 50%;
+        height: 17vw;
+        display: inline;
+    }
+
+    .tboxfoot {
+        width: 17vw;
+        height: 17vw;
+        margin-bottom: 5vw;
+        border-left: .3vw double gray;
+        margin-left: 1.5vw;
+        padding-left: 1.5vw;
+        display: inline-block;
+    }
+
+    .tboxh {
+        font-size: 2vw;
+        color: azure;
+        display: inline;
+    }
+
+    .tboxh2 {
+        display: inline;
+        font-size: 1.5vw;
+        color: rgb(165, 183, 183);
+    }
+
+    .tdesc {
+        color: rgb(82, 79, 79);
+        width: 23vw;
+        padding-top: .4vw;
+        display: inline;
+        margin: 4% 2% 2% 2%;
+        font-size: 1.2vw;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1100px) {
+    .tboxes {
+        overflow: hidden;
+        border: .3vw solid gray;
+        width: 42vw;
+        height: 25vw;
+        display: inline-block;
+        margin: 2vw 2vw 2vw 2.5vw;
+    }
+
+    .tboxhead {
+        margin-left: 2vw;
+        width: 17vw;
+        margin-top: -25vw;
+        border-radius: 50%;
+        height: 17vw;
+        display: inline;
+    }
+
+    .tboxfoot {
+        width: 17vw;
+        height: 17vw;
+        border-left: .3vw double gray;
+        margin-left: 1.5vw;
+        padding-left: 1.5vw;
+        display: inline-block;
+    }
+
+    .tboxh {
+        font-size: 1.5vw;
+        color: azure;
+        display: inline;
+    }
+
+    .tboxh2 {
+        display: inline;
+        font-size: 1.3vw;
+        color: rgb(165, 183, 183);
+    }
+
+    .tdesc {
+        color: rgb(82, 79, 79);
+        width: 23vw;
+        display: inline;
+        margin: 0% 2% 2% 2%;
+        font-size: 1.1vw;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 900px) {
+    .tboxes {
+        overflow: hidden;
+        border: .3vw solid gray;
+        width: 90vw;
+        height: 25vw;
+        margin: 2vw 2vw 2vw 5vw;
+    }
+
+    .tboxhead {
+        margin-left: 2vw;
+        width: 17vw;
+        margin-top: -20vw;
+        margin-bottom: 1.5vw;
+        border-radius: 50%;
+        height: 17vw;
+        display: inline-block;
+    }
+
+    .tboxfoot {
+        width: 50vw;
+        height: 20vw;
+        border-left: .3vw double gray;
+        margin-left: 1.5vw;
+        padding-left: 1.5vw;
+        display: inline-block;
+    }
+
+    .tboxh {
+        font-size: 3.5vw;
+        color: azure;
+    }
+
+    .tboxh2 {
+        display: inline-block;
+        font-size: 2.5vw;
+        color: rgb(165, 183, 183);
+    }
+
+    .tdesc {
+        color: rgb(82, 79, 79);
+        width: 30vw;
+        display: inline;
+        margin: 0% 2% 2% 2%;
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 50px) and (max-width: 550px) {
+    .tboxes {
+        overflow: hidden;
+        border: .3vw solid gray;
+        width: 90vw;
+        height: 25vw;
+        margin: 2vw 2vw 2vw 5vw;
+    }
+
+    .tboxhead {
+        margin-left: 2vw;
+        width: 17vw;
+        margin-top: -30vw;
+        margin-bottom: -1.5vw;
+        border-radius: 50%;
+        height: 17vw;
+        display: inline-block;
+    }
+
+    .tboxfoot {
+        width: 50vw;
+        height: 20vw;
+        border-left: .3vw double gray;
+        margin-left: 1.5vw;
+        padding-left: 1.5vw;
+        display: inline-block;
+    }
+
+    .tboxh {
+        font-size: 3vw;
+        color: azure;
+    }
+
+    .tboxh2 {
+        display: inline-block;
+        font-size: 2vw;
+        color: rgb(165, 183, 183);
+    }
+
+    .tdesc {
+        color: rgb(82, 79, 79);
+        width: 30vw;
+        display: inline;
+        margin: 0% 2% 2% 2%;
+        font-size: 1.5vw;
+        padding: -3vw;
+    }
+}
+@media (min-width: 50px) and (max-width: 420px) {
+    .tboxes {
+        overflow: hidden;
+        border: .3vw solid gray;
+        width: 90vw;
+        height: 25vw;
+        margin: 2vw 2vw 2vw 5vw;
+    }
+
+    .tboxhead {
+        margin-left: 1vw;
+        width: 13vw;
+        margin-top:-45vw;
+        margin-bottom: -1.5vw;
+        border-radius: 50%;
+        height: 13vw;
+        display: inline-block;
+    }
+
+    .tboxfoot {
+        width: 50vw;
+        height: 20vw;
+        border-left: .3vw double gray;
+        margin-left: 1.5vw;
+        padding-left: 1.5vw;
+        display: inline-block;
+    }
+
+    .tboxh {
+        font-size: 3vw;
+        color: azure;
+    }
+
+    .tboxh2 {
+        display: inline-block;
+        font-size: 2vw;
+        color: rgb(165, 183, 183);
+    }
+
+    .tdesc {
+        color: rgb(82, 79, 79);
+        width: 30vw;
+        display: inline;
+        margin: 0% 2% 2% 2%;
+        font-size: 1.5vw;
+        padding: -3vw;
+    }
+}
+
+@media (min-width: 10px) and (max-width: 310px) {
+    .tboxes {
+        overflow: hidden;
+        border: .3vw solid gray;
+        width: 90vw;
+        height: 25vw;
+        margin: 2vw 2vw 2vw 5vw;
+    }
+
+    .tboxhead {
+        margin-left: 1vw;
+        width: 13vw;
+        margin-top:-60vw;
+        margin-bottom: -1.5vw;
+        border-radius: 50%;
+        height: 13vw;
+        display: inline-block;
+    }
+
+    .tboxfoot {
+        width: 50vw;
+        height: 20vw;
+        border-left: .3vw double gray;
+        margin-left: 1.5vw;
+        padding-left: 1.5vw;
+        display: inline-block;
+    }
+
+    .tboxh {
+        font-size: 3vw;
+        color: azure;
+    }
+
+    .tboxh2 {
+        display: inline-block;
+        font-size: 2vw;
+        color: rgb(165, 183, 183);
+    }
+
+    .tdesc {
+        color: rgb(82, 79, 79);
+        width: 30vw;
+        display: inline;
+        margin: 0% 2% 2% 2%;
+        font-size: 1.5vw;
+        padding: -3vw;
+    }
+}
